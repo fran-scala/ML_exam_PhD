@@ -1,5 +1,5 @@
 # Machine Learning exam PhD
-Little Machine Learning project for the PhD exam. Teacher: Jennifer Ngadiuba
+Little Machine Learning project for the PhD exam. PhD Student: Francesco Scala, Teacher: Jennifer Ngadiuba
 
 ## Repository content
 The `ML_exam_PhD.ipynb` file is a Jupyter Notebook containing the project's code. The `data_dir` is a directory containing some saved data needed to show results without re-running the code for different numbers of qubits (see below).
