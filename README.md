@@ -12,6 +12,8 @@ In particular, in Sec. 1 we study the effect of the dataset size.
 In fact, since quantum states of $n$ qubits live in a Hilbert space of dimension $d=2^n$ which is exponential in the number of qubits itself, one can see that a fixed dataset size leads to overfitting and poor performance of the model as the number of qubits increases.
 For this reason, we will repeat the training procedure of a MLP with different datasets corresponding to different numbers of qubits ($n\in\{2,3,4,5\}$) for both the case with fixed (Sec 1.0) and exponential (Sec 1.1) dataset sizes. 
 
+(We gathered the results of the different trainings in a single file and then we compare the results through their loss histories and ROC curves. One can skip directly to the *Multi-qubit data analysis* sections (1.1.3 and 1.2.3) load the data and see the results.)
+
 While in Sec. 2 we complicate the classification task by adding data coming from different experiments (extra classes) to be distinguished one from the other and from noise. This is done for 5 qubits with exponentially big dataset (equally divided in 3 classes). We will see that the MLP (Sec. 2.1) employed in the previous section is able to perform well also in this case, but employing a CNN (Sec. 2.2) will improve the performance while reducing the number of parameters (from 80k to 30k).
 
 ### Table of content
